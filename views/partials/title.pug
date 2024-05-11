@@ -1,0 +1,14 @@
+//title
+.header-title
+    if !html
+        b:if(cond="data:view.isHomepage")
+            .typewriter
+                h1.text-center.txt-light
+                    |<data:blog.title/>
+        //b:else
+        //h2.text-center.text-purple
+        //        |<data:blog.title/>
+    else
+        .box-title
+            h1.italic.text-left.text-light.p-2  Scripteando Videojuegos
+            h2.font-weight-light.font-italic.text-left.text-light.p-2 Lorem Ipsum 
