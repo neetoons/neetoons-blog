@@ -1,0 +1,11 @@
+- var dateheader = "data:post.dateheader"; //The post's date as header.
+- var title = "data:title/""; // The blog's title.
+- var olderPageTitle = "data:olderPageTitle"; //Title of the older page of posts.
+- var newPageTitle = "data:newerpagetitle"; //Title of the newer page of posts.
+- var authorLabel = "data:authorlabel"; //It will show "posted by".
+- var postTitle = "data:post.title"; //The post's title.
+- var postBody = "data:post.body";  //The post's content.
+- var author = "data:post.author"; //The post's author name.
+- var url =  "data:post.url"; //The post' url link.
+- var timeStamp = "data:post.timestamp"; //The post's date and time.
+- var labelName = "data:label.name"; //The post's label.
