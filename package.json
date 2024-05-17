@@ -1,9 +1,24 @@
 {
+  "name": "Neetoons-blog",
+  "version": "1.0.0-alpha",
+  "description": "A blogger theme made with bootstrap and pugjs",
+  "main": "",
   "dependencies": {
-    "hamlet-builder": "^1.0.4"
+    "live-server": "^1.2.2",
+    "pug-cli": "^1.0.0-alpha6"
   },
-    "scripts": {
-      "start": "hamlet --mode production --watch",
-      "build": "hamlet --mode production"
-    }
+  "scripts": {
+    "build": "pug --out ./dest --extension xml --pretty --watch ./views/index.pug",
+    "html": "pug --out ./dest  --extension html --pretty --watch ./views/index.pug",
+    "dev": "live-server ./dest"
+  },
+  "keywords": [
+    "Blogger",
+    "theme",
+    "blog",
+    "xml",
+    "pugjs"
+  ],
+  "author": "Neetoons",
+  "license": "ISC"
 }

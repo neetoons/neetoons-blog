@@ -1,0 +1,27 @@
+.container.text-white.p-1.text-center.mt-4 
+    b:section#footer( showaddelement="yes") 
+    .row
+        //.col-12.col-lg-6
+            ul 
+                li 
+                    a(expr:href="data:blog.homepageUrl").text-purple-2 
+                        | Inicio 
+                li 
+                    a(href="").text-muted
+                        | Programación 
+                li 
+                    a(href="https://Neetoons.blogspot.com/p/about.html").text-purple-2 
+                li 
+                    a(href="https://Neetoons.blogspot.com/p/faq.html").text-purple-2 
+                        | FAQ
+        .col-12
+            p
+                |Blogger Theme designed by Neetoons | 2024 
+                a(href="https://github.com/Neetoons/Neetoons-blog-theme/")
+                    i.bi-github.mx-2(role="img" aria-label="Github") 
+
+
+b:if(cond='data:blog.pageType == "item"')
+    script
+        include ../partials/js/relatedPosts.js
+    script(src='/feeds/posts/default/-/tecnologia?alt=json-in-script&callback=relatedPosts')

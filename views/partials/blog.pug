@@ -1,0 +1,17 @@
+b:widget#Blog1(locked="no" title="Entradas" type="Blog" version="1")
+    b:includable(id="main" var="post")
+        .container
+            b:loop(var="i"  values="data:posts")
+                | <data:i.feedLinks />
+                | <data:feedLinks />
+                b:loop(var="a" values="data:feedLinks")
+                    | <data:aurl/>
+                .row.publicaciones
+                    //posts en homepage
+                    .col-8.p-0.md-auto
+                        a.text-purple(expr:href="data:i.url")
+                            h4.h1.text-center.mb-3.mx-1.m-lg-0
+                                | <data:i.title />
+                    .col-12.col-lg-8.px-0.purple
+                        | <data:i.body/>
+                        | <data:i.timestamp/> - <data:i.numComments/> comentarios 

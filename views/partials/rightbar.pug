@@ -1,0 +1,16 @@
+b:section#sidebar(preferred="yes" showaddelement="yes")
+//search
+//#about
+    .d-flex.pt-2
+        i#openSearch.material-icons.text-white.p-1 search
+        input#buscador(type='search')
+b:if(cond='data:blog.pageType == "item"')
+    a.h5.my-5.pb-1.mt-5.pl-1.pr-1.font-italic.text-light.underline 
+        | Artículos Relacionados
+
+
+    a.related-posts(href='#')
+    if html
+        figure.position-relative.mt-3
+            img.img-fluid.mb-1(src='https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='...')
+            a.related-posts.thumbnail(href='') Lorem ipsum, dolor sit amet consectetur adipisicing elit.

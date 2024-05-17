@@ -1,0 +1,72 @@
+nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.lmao
+    .container
+        a.navbar-brand(expr:href='data:blog.homepageUrl')
+            img.logo(src="images/logo.png")
+            //if html
+                .h5.p-0.m-0
+                    | name blog
+            //else
+                b:if(cond="data:view.isHomepage")
+                    .h5.p-0.m-0
+                        |<data:blog.title/>
+                    b:else/
+                    .h5.p-0.m-0
+                        |<data:blog.title/>
+
+            //redes sociales
+        //.d-none.d-lg-block.ms-auto.text-light.h6.my-auto
+        .text-light.h6.my-auto
+            button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    if html
+                        li.nav-item.active
+                            a.nav-link(expr:href="data:blog.homepageUrl")
+                                | Inicio 
+                                //span.sr-only
+                                    | (current)
+                        li.nav-item.inactive
+                            a.nav-link(expr:href="data:blog.homepageUrl")
+                                | Gamemodes 
+                        li.nav-item.active
+                            a.nav-link(expr:href="data:blog.homepageUrl")
+                                | Sobre Neetoons 
+
+                    else 
+                        li.nav-item
+                            a.nav-link(expr:href="data:blog.homepageUrl")
+                                b:class(name="active" cond='data:view.isHomepage')
+                                | Inicio 
+                        //li.nav-item
+                            a.nav-link.disabled
+                                | Programación
+                        li.nav-item
+                            a.nav-link(href="https://Neetoons.blogspot.com/p/about.html")
+                                b:class(name="active" cond='data:view.url == "https://Neetoons.blogspot.com/p/about.html"')
+                                | Sobre mi
+            //a(href="https://github.com/Neetoons/Neetoons-blog-theme/")
+                i.bi-github.mx-2(role="img" aria-label="GitHub")
+            //a(href="#")
+                i.text-muted.bi-facebook.mx-2(role="img" aria-label="Facebook")
+            //a(href="#")
+                i.text-muted.bi-instagram.mx-2(role="img" aria-label="Instagram")
+            //a(href="#")
+                i.text-muted.bi-twitter.mx-2(role="img" aria-label="Twitter")
+        //.d-block.d-lg-none.text-light.h4.mt-4.text-center
+            a(href="#")
+                i.bi-facebook.mx-4(role="img" aria-label="Facebook")
+            a(href="#")
+                i.bi-instagram.mx-4(role="img" aria-label="Instagram")
+            a(href="#")
+                i.bi-github.mx-4(role="img" aria-label="GitHub")
+            a(href="#")
+                i.bi-twitter.mx-4(role="img" aria-label="Twitter")
+
+
+        //form.form-inline.my-2.my-lg-0
+            input.outline-dark.bg-negro.form-control.mr-sm-2(type='search' placeholder='Buscar' aria-label='Search')
+            button.btn.btn-outline-dark.my-2.my-sm-0(type='submit') Buscar 
+.caja
+    img.cs(src='images/cs.png')
+    img.gta(src='images/gta.png')
