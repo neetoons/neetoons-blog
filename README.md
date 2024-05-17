@@ -1,6 +1,6 @@
 # Neetoons theme 
 
-_It's a Blogger blog theme made for Neetoons._
+_This was a Blogger blog theme made for Neetoons, discontinued._
 
 _This theme has a personal style with a purple color meaning the fantasy of techonology is, but maybe this could change in the future._
 
