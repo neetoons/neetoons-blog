@@ -18,11 +18,11 @@ Author Url:  https://www.way2themes.com/
 {}
 /*
 <!-- Variable definitions -->
-<Variable name="keycolor" description="Main Color" type="color" default="$(main.color)" value="#f67280"/>
+<Variable name="keycolor" description="Main Color" type="color" default="$(main.color)" value="#730078"/>
 <Variable name="followByEmail" description="Follow By Email Text" type="string" default="Get all latest content delivered straight to your inbox." value="Get all latest content delivered straight to your inbox."/>
 
 <Group description="Theme Colors" selector="body">
- <Variable name="main.color" description="Theme Color" type="color" default="#f67280" value="#f67280"/>
+ <Variable name="main.color" description="Theme Color" type="color" default="#730078" value="#730078"/>
   <Variable name="main.dark.color" description="Dark Color" type="color" default="#090C1E" value="#090C1E"/>
   <Variable name="header.bg" description="Header Background" type="color" default="#ffffff" value="#ffffff"/>
   <Variable name="menu.color" description="Menu Color" type="color" default="#090C1E" value="#090C1E"/>
@@ -38,7 +38,7 @@ Author Url:  https://www.way2themes.com/
   <Variable name="body.background.color" description="Body Background Color" type="color" default="#dddddd"  value="#dddddd"/>
   <Variable name="body.background" description="Background" type="background" color="$(body.background.color)" default="$(color) url() repeat fixed top left" value="$(color) url() repeat fixed top left"/>
   <Variable name="body.text.color" description="Text Color" type="color" default="#2D3350"  value="#2D3350"/>
-  <Variable name="body.link.color" description="Link Color" type="color" default="$(main.color)"  value="#f67280"/>
+  <Variable name="body.link.color" description="Link Color" type="color" default="$(main.color)"  value="#730078"/>
 </Group>
  
  
@@ -4625,7 +4625,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
         <b:section class='main-logo' id='main-logo' maxwidgets='1' name='Header Logo' showaddelement='yes'>
               <b:widget id='Header1' locked='true' title='Neetoons (Encabezado)' type='Header' version='2' visible='true'>
                 <b:widget-settings>
-                  <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiZEaO2w6LlNFRGYKTIYIbikL-7L9J1R2fqRGo_mwVha2gCBUONmz7GusIA35NN98lhI837BdvSLEFI7VtqxRtLqZqSy2hzPNoz9Z9xApPzZs9rI4rZCmiDJpwFw6-BZrCWKy03VUo6DelrH__vgid5C8ahC_Wum1TFNIedU0XK6u08iXnu0JIYieAHGjvI=s74</b:widget-setting>
+                  <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiMajIlRvAmIbMg_kImsV8d7Bg-MvyIulMAJkbP8ISRouXVGATSoydtH--IUjklmurYHqeNdRmMO20xh9M9A3RyXWcGOVSqyXBemE0iuhIkhFyKtjYTolUZ8A4HhwrRWmueRV-sU_j04TzNOEZneawJJGAqNTlzPPLN9hIEXHXXNyq0jDQaN0464bt76bY</b:widget-setting>
                   <b:widget-setting name='displayHeight'>45</b:widget-setting>
                   <b:widget-setting name='sectionWidth'>150</b:widget-setting>
                   <b:widget-setting name='useImage'>true</b:widget-setting>
@@ -4674,35 +4674,15 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
         <b:section class='main-menu' id='main-menu' maxwidgets='1' name='Main Menu' showaddelement='yes'>
           <b:widget id='LinkList74' locked='true' title='Link List' type='LinkList' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='text-10'>Documentation</b:widget-setting>
+              <b:widget-setting name='link-3'>https://discord.gg/nDJp37kqhp</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
+              <b:widget-setting name='text-1'>Gamemodes</b:widget-setting>
               <b:widget-setting name='link-1'>#</b:widget-setting>
-              <b:widget-setting name='link-13'>https://www.way2themes.com/2024/04/jink-blogger-template.html</b:widget-setting>
-              <b:widget-setting name='link-2'>#</b:widget-setting>
-              <b:widget-setting name='link-12'>https://youtu.be/ENwNxRLEGhg</b:widget-setting>
+              <b:widget-setting name='text-0'>Inicio</b:widget-setting>
+              <b:widget-setting name='link-2'>https://neetoons.blogspot.com/2024/06/gamemode-srp.html</b:widget-setting>
+              <b:widget-setting name='text-3'>Discord</b:widget-setting>
               <b:widget-setting name='link-0'>/</b:widget-setting>
-              <b:widget-setting name='link-11'>https://www.sorabloggingtips.com/2024/04/how-to-setup-jink-blogger-template.html</b:widget-setting>
-              <b:widget-setting name='link-10'>#</b:widget-setting>
-              <b:widget-setting name='text-9'>Mega Menu</b:widget-setting>
-              <b:widget-setting name='link-9'>random/mega-menu</b:widget-setting>
-              <b:widget-setting name='text-8'>_Error Page</b:widget-setting>
-              <b:widget-setting name='link-7'>https://www.sorabloggingtips.com/2017/01/how-to-add-sitemap-widget-in-blogspot-blogs.html</b:widget-setting>
-              <b:widget-setting name='link-8'>https://jink-way2themes.blogspot.com/way2themes</b:widget-setting>
-              <b:widget-setting name='link-5'>#</b:widget-setting>
-              <b:widget-setting name='link-6'>https://spotmag-templateify.blogspot.com/p/post-format-and-page-markup.html</b:widget-setting>
-              <b:widget-setting name='link-3'>#</b:widget-setting>
-              <b:widget-setting name='link-4'>#</b:widget-setting>
-              <b:widget-setting name='text-1'>Features</b:widget-setting>
-              <b:widget-setting name='text-0'>Home</b:widget-setting>
-              <b:widget-setting name='text-3'>__DropDown 1</b:widget-setting>
-              <b:widget-setting name='text-2'>_Multi DropDown</b:widget-setting>
-              <b:widget-setting name='text-5'>__DropDown 3</b:widget-setting>
-              <b:widget-setting name='text-4'>__DropDown 2</b:widget-setting>
-              <b:widget-setting name='text-7'>_SiteMap</b:widget-setting>
-              <b:widget-setting name='text-6'>_ShortCodes</b:widget-setting>
-              <b:widget-setting name='text-11'>_Web Doc</b:widget-setting>
-              <b:widget-setting name='text-12'>_Video Doc</b:widget-setting>
-              <b:widget-setting name='text-13'>Download This Template</b:widget-setting>
+              <b:widget-setting name='text-2'>_Super Roleplay 2</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <b:include name='content'/>
@@ -5587,29 +5567,17 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
       <!-- Sidebar Wrapper -->
       <div id='sidebar-wrapper'>
         <b:section class='sidebar' id='social-widget' maxwidgets='1' name='Social Widget' showaddelement='yes'>
-          <b:widget id='LinkList75' locked='true' title='Social Plugin' type='LinkList' version='2' visible='true'>
+          <b:widget id='LinkList75' locked='true' title='Redes sociales' type='LinkList' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='text-9'>skype</b:widget-setting>
-              <b:widget-setting name='link-9'>#</b:widget-setting>
-              <b:widget-setting name='text-8'>whatsapp</b:widget-setting>
-              <b:widget-setting name='link-7'>https://www.youtube.com/liveblogger</b:widget-setting>
-              <b:widget-setting name='link-8'>#</b:widget-setting>
-              <b:widget-setting name='link-5'>#</b:widget-setting>
-              <b:widget-setting name='link-6'>https://www.instagram.com/livebloggerofficial/</b:widget-setting>
-              <b:widget-setting name='link-3'>#</b:widget-setting>
-              <b:widget-setting name='link-4'>#</b:widget-setting>
-              <b:widget-setting name='text-1'>x-twitter</b:widget-setting>
-              <b:widget-setting name='text-0'>facebook</b:widget-setting>
-              <b:widget-setting name='text-3'>reddit</b:widget-setting>
-              <b:widget-setting name='text-2'>linkedin</b:widget-setting>
-              <b:widget-setting name='text-5'>vk</b:widget-setting>
-              <b:widget-setting name='text-4'>pinterest</b:widget-setting>
-              <b:widget-setting name='text-7'>youtube</b:widget-setting>
-              <b:widget-setting name='text-6'>instagram</b:widget-setting>
+              <b:widget-setting name='link-3'>https://www.youtube.com/@neetoons</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-1'>https://twitter.com/LiveBlogger1</b:widget-setting>
-              <b:widget-setting name='link-2'>#</b:widget-setting>
-              <b:widget-setting name='link-0'>https://www.facebook.com/way2themes/</b:widget-setting>
+              <b:widget-setting name='text-1'>x-twitter</b:widget-setting>
+              <b:widget-setting name='link-1'>https://twitter.com/neetoons</b:widget-setting>
+              <b:widget-setting name='text-0'>facebook</b:widget-setting>
+              <b:widget-setting name='link-2'>https://www.instagram.com/neetoons/</b:widget-setting>
+              <b:widget-setting name='text-3'>youtube</b:widget-setting>
+              <b:widget-setting name='link-0'>https://www.facebook.com/neetoons/</b:widget-setting>
+              <b:widget-setting name='text-2'>instagram</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <b:include name='widget-title'/>
@@ -5627,27 +5595,11 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
           </b:widget>
         </b:section>
         <b:section class='sidebar common-widget' id='sidebar1' name='Sidebar Right' showaddelement='yes'>
-          <b:widget id='HTML1' locked='false' title='Subscribe Us' type='HTML' visible='true'>
+          <b:widget id='HTML1' locked='false' title='Suscribete al canal' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<div class="videoWrapper">
-    <!-- Copy & Pasted from YouTube -->
-    <iframe width="560" height="349" src="https://www.youtube.com/embed/74OMBVHIyzY" frameborder="0" allowfullscreen></iframe>
-</div>
-<style>
-.videoWrapper {
-position: relative;
-padding-bottom: 56.25%; /* 16:9 */
-padding-top: 25px;
-height: 0;
-}
-.videoWrapper iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-</style>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UCIIyMjeOLWNlTjCxDMESCaA" data-layout="full" data-count="default"></div>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -5656,7 +5608,7 @@ height: 100%;
   </div>
 </b:includable>
           </b:widget>
-          <b:widget id='PopularPosts2' locked='false' title='Most Popular' type='PopularPosts' version='2' visible='true'>
+          <b:widget id='PopularPosts2' locked='false' title='Más Popular' type='PopularPosts' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
               <b:widget-setting name='showThumbnails'>true</b:widget-setting>
@@ -5989,7 +5941,7 @@ height: 100%;
   </div>
 </b:includable>
           </b:widget>
-          <b:widget id='Label1' locked='false' title='Tags' type='Label' version='2' visible='true'>
+          <b:widget id='Label1' locked='false' title='Etiquetas' type='Label' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
               <b:widget-setting name='display'>CLOUD</b:widget-setting>
@@ -6036,14 +5988,7 @@ height: 100%;
       </ul>
     </b:includable>
           </b:widget>
-          <b:widget id='Label3' locked='false' title='Categories' type='Label' version='2' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-              <b:widget-setting name='display'>LIST</b:widget-setting>
-              <b:widget-setting name='selectedLabelsList'>Business,Photography,Sports,Technology</b:widget-setting>
-              <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
-              <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
-            </b:widget-settings>
+          <b:widget id='Label3' locked='false' title='Categorías' type='Label' version='2' visible='true'>
             <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
       <b:include name='content'/>
@@ -6096,7 +6041,7 @@ height: 100%;
 <div class='container row'>
     <div class='footer-widgets-wrap'>
       <b:section class='footer common-widget' id='footer-sec1' maxwidgets='3' name='Section (Left)' showaddelement='yes'>
-        <b:widget id='HTML3' locked='false' title='Random Posts' type='HTML' visible='true'>
+        <b:widget id='HTML3' locked='false' title='Random Posts' type='HTML' visible='false'>
           <b:widget-settings>
             <b:widget-setting name='content'>3/random/post-list</b:widget-setting>
           </b:widget-settings>
@@ -6109,11 +6054,11 @@ height: 100%;
         </b:widget>
       </b:section>
       <b:section class='footer common-widget' id='footer-sec2' maxwidgets='3' name='Section (Center)' showaddelement='yes'>
-        <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='false' title='Featured post' type='FeaturedPost' version='2' visible='true'>
+        <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='false' title='Post fijado' type='FeaturedPost' version='2' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='showSnippet'>true</b:widget-setting>
             <b:widget-setting name='showPostTitle'>true</b:widget-setting>
-            <b:widget-setting name='postId'>8353339175104730616</b:widget-setting>
+            <b:widget-setting name='postId'>5746264479465132230</b:widget-setting>
             <b:widget-setting name='showFirstImage'>true</b:widget-setting>
             <b:widget-setting name='useMostRecentPost'>false</b:widget-setting>
           </b:widget-settings>
@@ -6745,7 +6690,7 @@ height: 100%;
 <div id='sub-footer-wrapper'>
   <div class='container row'>
     <b:section class='menu-footer' id='menu-footer' maxwidgets='1' name='Footer Menu' showaddelement='yes'>
-      <b:widget id='LinkList76' locked='true' title='Footer Menu Widget' type='LinkList' version='2' visible='true'>
+      <b:widget id='LinkList76' locked='true' title='Footer Menu Widget' type='LinkList' version='2' visible='false'>
         <b:widget-settings>
           <b:widget-setting name='sorting'>NONE</b:widget-setting>
           <b:widget-setting name='text-1'>About</b:widget-setting>
