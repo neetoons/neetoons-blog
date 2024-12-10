@@ -1,0 +1,1 @@
+Esta guia de pawn esta hecha para gente joven que se quiere entrar al mundo de la programación por lo que tratará de ser lo más amigable usando un lenguaje no tan tecnico.
