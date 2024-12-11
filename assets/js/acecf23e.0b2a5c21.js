@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkneetoons_blog=self.webpackChunkneetoons_blog||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/neetoons-blog/blog","blogTitle":"Blog","authorsListPath":"/neetoons-blog/blog/authors"}')}}]);
