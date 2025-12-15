@@ -1,8 +1,6 @@
-# Neetoons Blog 
+# Neetoons Blog
 
 Blog y documentación sobre desarrollo de servidores de videojuegos como de GTA San Andreas Multiplayer (SA:MP) entre otros.
-
-Este sitio esta hecoh usandon Docusaurus.
 
 ### Installation
 ```
