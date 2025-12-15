@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Neetoons | Scripters',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Aprendiendo programación con videojuegos',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -69,9 +69,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Neetoons Blog',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Neetoons logo',
         src: 'img/neetoons-logo.png',
       },
       items: [
@@ -81,7 +81,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        //{to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/neetoons/neetoons-blog',
           label: 'GitHub',
@@ -105,16 +105,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/RDVRsWHUnS',
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/neetoons',
             },
           ],
         },
@@ -127,12 +123,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/neetoons/neetoons-blog',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Neetoons`,
     },
     prism: {
       theme: prismThemes.github,
